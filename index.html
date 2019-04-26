@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class = 'logo'>
+            <img class = 'pigBank' src='C:\Users\amacd\Documents\devmountain\Week2\afternoon_problems\simulation-vanillajs\assets\piggy_bank.svg'>
+            <p>Budget Builder</p>
+        </div>
+        <div class = 'total'>
+            <p id = 'budgTot'>Budget Total:</p>
+        </div>
+    </nav>
+    <main>
+        <div class = container>
+            <div class = 'expenses'>
+                <p>Monthly Expenses</p>
+                <ul id = 'list'>
+                </ul>
+
+            </div>
+                    <form class = 'addBill'>
+                        <p>Add Bill</p>
+                        <div class = 'addForm'>    
+                            <p>Name</p>                        
+                            <input id = 'name' type = 'text'>
+                        </div>
+                        <div class = 'addForm'>
+                            <p>Amount</p>
+                            <input id = 'amount'type = 'text'>
+                        </div>
+                        <div class = 'button' id = 'button'>
+                            <p>Add</p>
+                        </div>
+                    </form>
+        </div>
+    </main>
+<script src='index.js'></script>
+</body>
+
+</html>
